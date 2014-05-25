@@ -13,9 +13,4 @@ angular.module('technion', ['ui.router'])
         controller: 'VideoCtrl',
         templateUrl: 'views/video.html'
       });
-  })
-
-  .config(function($sceProvider) {
-    // Completely disable SCE.  For demonstration purposes only!
-    $sceProvider.enabled(false);
   });
